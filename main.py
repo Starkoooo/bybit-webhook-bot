@@ -5,8 +5,8 @@ from pybit.unified_trading import HTTP
 app = Flask(__name__)
 
 # Nacitaj API kľúče z env premennej
-BYBIT_API_KEY = os.environ.get("BYBIT_API_KEY")
-BYBIT_API_SECRET = os.environ.get("BYBIT_API_SECRET")
+BYBIT_API_KEY = os.environ.get("jmlL97WpWUrPn6uC58")
+BYBIT_API_SECRET = os.environ.get("s0o8TeD03i6AqlNyx4rAFJuguYMQ6H8ntU3K")
 
 # Pripojenie na Bybit Testnet Unified API
 session = HTTP(
