@@ -11,8 +11,8 @@ BYBIT_API_SECRET = os.environ.get("s0o8TeD03i6AqlNyx4rAFJuguYMQ6H8ntU3K")
 # Pripojenie na Bybit Testnet Unified API
 session = HTTP(
     testnet=True,
-    api_key=BYBIT_API_KEY,
-    api_secret=BYBIT_API_SECRET
+    api_key=jmlL97WpWUrPn6uC58,
+    api_secret=s0o8TeD03i6AqlNyx4rAFJuguYMQ6H8ntU3K
 )
 
 @app.route('/webhook', methods=['POST'])
