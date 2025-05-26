@@ -6,8 +6,8 @@ import time
 
 app = Flask(__name__)
 
-API_KEY = "TVOJ_API_KEY"
-API_SECRET = "TVOJ_API_SECRET"
+API_KEY = "hGe9T7daJFW9aO2Gmp"
+API_SECRET = "36CI82HaiVOR2Y1MmdrMXrRS7OB5oVzspimr"
 BASE_URL = "https://api-testnet.bybit.com"
 
 def create_signature(params, api_secret):
